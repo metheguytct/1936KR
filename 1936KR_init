@@ -1,4 +1,4 @@
-   e = campaignTrail_temp;
+    e = campaignTrail_temp;
 
             nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#666062";
 
@@ -10,7 +10,7 @@
 
             $(".container")[0].style.backgroundColor = "#1d1b1b";
 
-            document.getElementById("header").src = "https://i.postimg.cc/tgdtLRvf/kr.jpg";
+            document.getElementById("header").src = "https://i.postimg.cc/26X1XR3T/kr.jpg";
 
             document.body.background = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d37571b7-2b05-4a57-9cc9-117d1ba6353b/dc1xv9r-5567d629-5fd4-484c-b801-f41c506b97eb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QzNzU3MWI3LTJiMDUtNGE1Ny05Y2M5LTExN2QxYmE2MzUzYlwvZGMxeHY5ci01NTY3ZDYyOS01ZmQ0LTQ4NGMtYjgwMS1mNDFjNTA2Yjk3ZWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VipRAlYIeHbdegnJoOO7UxxvF40MwLiQQ31mjorCAIs";
 
