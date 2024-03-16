@@ -133,7 +133,7 @@ endingPicker = (out, totv, aa, quickstats) => {
   if (campaignTrail_temp.player_answers[4] == 2104 && quickstats[0] >= 265 && quickstats[0] <531 && campaignTrail_temp.running_mate_last_name == "Truman") { 
 	e.header = "<h2>A Post Nuclear Role-Playing Game</h2>"
 	e.pages = ["<p><p>The year is 2102. After what many describe as World War 3 in 1949 where the United States invaded the People’s Republic of Italy, the world fell into a nuclear holocaust. Every man, woman, and child found themselves on the brink of destruction after the bombs dropped and radiation spread from continent to continent, killing nearly everyone in its path.</p><p> You are perhaps one of the sole survivors in the State of New Jersey, wandering the lands in search of food, fresh water, and friendly faces in a hostile world full of Supermutants, Rad Roaches, and the occasional Deathclaw.</p><p> You are Stanley Harriman Wallace, the descendant of the man who had caused this disaster, and perhaps the only one who can save what’s left of humanity. Together alongside your best friend, James Roosevelt VI and his bionic legs, you must embark on a quest to stop the rogue Enclave and take back America for the common man! Go forth Wallace, and reclaim the rights of every man for every Wastelander!</p>"]
-  e.image = "https://media.discordapp.net/attachments/1050549034294718536/1071972959700398090/Nuclear_Explosion.jpg";
+  e.image = "https://i.imgur.com/CnxV2qj.png";
 	return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] < 81) { 
@@ -159,7 +159,7 @@ endingPicker = (out, totv, aa, quickstats) => {
   if (suicide < 1 && controv <= 1 && quickstats[0] <= 264 && out == "tie") { 
 	e.header = "<h2>ELECTION DEADLOCKS; TRUMAN SET TO BENEFIT!</h2>"
 	e.pages = ["<p>The <em>Brooklyn Eagle</em>reports. ‘Unbelievable! He’s going to reelected?!’ Secretary of State Edward Stettinius Jr. yells out at seeing the results. The sheer idea you would even put up a decent fight was sketchy at best, but the fact you’ve managed to pull ahead has just changed the entire dynamic of this race. Yes, Thurmond did manage to deadlock the election, but the fact you still performed the strongest out of everyone is cause for anger among the S.R.P. Their chances of taking back control are now in jeopardy, as there’s proof the Liberals and Unions are enough to keep the Democrats alive.</p><p>On top of that, the recent results in Congress have given your party a slim plurality in both chambers, meaning in the House you do have a chance to cinch a second term. But right now, all that good news means very little to you, as the most likely winner stands right outside your door. The House has very little incentive to re-elect you, as moderates were never fond of you from the start, and the Senate is all on-board with a Party-backed candidate like Truman being propped up as the next President. With your fingers digging into your skull, you try to call every single House Representative and demand they not do this to you, but most either aren’t interested in your threats or openly mock you. It was a good run Wally, but everything must come to an end, and for you that seems to be sooner rather than later.</p>"]
-    e.image = "https://media.discordapp.net/attachments/1050549034294718536/1091768024903729162/Truman.jpg?width=273&height=369";
+    e.image = "https://i.imgur.com/ajVJp8B.png";
 	return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] == 265 && out == "win") { 
@@ -175,13 +175,13 @@ endingPicker = (out, totv, aa, quickstats) => {
   if (suicide < 1 && controv <= 1 && quickstats[0] <= 530 && out == "win") { 
 	e.header = "<h2>The Buck Stops Here!</h2>"
 	e.pages = ["<p>Sitting in the Oval Office you smile whimsically after the celebration just hours earlier. Your triumph over Taft and Thurmond is as sweet as cake, until suddenly you hear a voice. ‘President Wallace?’ You turn to see two men in black trench coats. How did they get in here? ‘Yes?’ You answer, to which they pull out some strange gun, almost like a toy. ‘We apologize, but it’s imperative that this result must not be allowed to continue. This timeline is an anomaly, one which must be set right.’ Aiming the gun at you a trigger is pulled, yet nothing comes out. A failed assassination!</p><p>Just as you prepare to yell for the Secret Service, suddenly your chest feels as if it explodes! You crumble onto your desk as the world begins to go dark. ‘Compliments of the CIA, not that you would know what that is.’ Seconds later they vanish without a trace, and by the time anyone comes to check on you it’s already over. The next day, Vice President-Elect, Harry Truman, is sworn into office, and soon enough, your life's work, the US-Soviet Peace Accords, are ripped up. In its place would come the Truman Doctrine, and by 1949 the Cold War officially begins.</p>"];
-    e.image = "https://media.discordapp.net/attachments/1046183324898578473/1092220093192208405/IMLGIfG.png?width=325&height=406";
+    e.image = "https://i.imgur.com/3oaB0tF.png";
 	return construct(0);
   }
   if (suicide < 1 && controv <= 1 && quickstats[0] >= 531) { 
 	e.header = "<h2>The Original Wallave!</h2>"
 	e.pages = ["<p>No one had seen this coming! In a shocking turn of events you’ve managed to capture every single state in the country!</p><p>Robert Taft suffers a pulmonary embolism at seeing his Party collapse into dust, as the Republicans lose every seat in Congress! Strom Thurmond is burned at the stake for his racist views and blacks revolt throughout the country to bring a new era of Negro Rights! There are no more political parties left after this result beyond the newly formed Progressive Democratic Party, led by you! Any naysayers are instantly booted out. After all, who the hell needs Moderates in the Age of Wallace!</p><p>The same Bullmoose you’d been apart of since 1912 is now back in action as the only force in American Politics!</p><p>With the people firmly behind you, the skies the limit! You could run for 3rd, 4th, 5th, maybe even a 6th term should you so choose. Congratulations Henry, you’ve made sure the name Wallace will go down in history as a Progressive forward thinking one for the rest of time!</p>"];
-    e.image = "https://media.discordapp.net/attachments/1050549034294718536/1071962156985237544/Henry_Wallave.jpg?width=361&height=406";
+    e.image = "https://i.imgur.com/jXLZYZm.png";
 	return construct(0);
   }
 
